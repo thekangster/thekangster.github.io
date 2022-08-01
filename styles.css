@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fff;
   font-family: Tahoma;
@@ -9,7 +13,9 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #F5F5DC 100%);/* #c3cfe2 100%);*/
+  margin-left: -6px;
+  margin-right: -8px;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 h2 {
@@ -25,11 +31,12 @@ ul {
 .hero {
   position: relative;
   width: 100;
-  margin-left: 3em;
+  margin-left: 4em;
 }
 
 nav {
-  margin-top: -5px;
+  margin-top: -8px;
+  padding-top: 30px;
   display: flex;
   width: 84%;
   justify-content: space-between;
@@ -69,8 +76,7 @@ nav ul li a:hover {
 }
 
 span {
-  /*color: #70aecc;*/
-  color: #c89915;
+  color: #70aecc;
   font-size: 70px;
 }
 
@@ -81,24 +87,37 @@ span {
   line-height: 22px;
 }
 
-.image {
+.images {
   width: 30%;
   height: 60%;
 }
 
-.image img {
+.images img {
   top: 25%;
-  right: 14%;
+  right: 10%;
   position: absolute;
   float: right;
-  transition: .7s ease;
+  transform: translateX(-30%);
+  transition: .8s ease;
 }
 
-.image:hover .me {
-  transform: scale(1.08);
+.images .shape {
+  top: 23%;
+  transform: translateY(50px);
+  transform: translateX(-130px);
 }
 
-@media only screen and (max-width: 800px) {
+.images:hover .shape {
+  right: 290px;
+  transform: translateY(40px);
+}
+
+.images:hover .me {
+  /*transform: scale(1.08);*/
+  transform: translateX(-130px);
+}
+
+@media only screen and (max-width: 1200px) {
   body {
     margin-left: -6em;
     font-size: 75%;
@@ -116,12 +135,6 @@ span {
     font-size: 40px;
   }
 
-  .image img {
-    margin-right: -3em;
-    max-width: 200px;
-    max-height: 320px;
-  }
-
   nav ul li {
     position: relative;
     display: inline-block;
@@ -131,5 +144,10 @@ span {
 
   .home {
     left: -150px;
+  }
+
+  .images:hover .shape {
+    right: 190px;
+    transform: translateY(40px);
   }
 }
