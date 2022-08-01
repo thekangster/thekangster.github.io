@@ -1,10 +1,15 @@
 body {
   background: #fff;
   font-family: Tahoma;
+  /*
   margin-left: 4em;
   margin-right: 4em;
+  */
   box-sizing: border-box;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.background {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #F5F5DC 100%);/* #c3cfe2 100%);*/
 }
 
 h2 {
@@ -23,17 +28,17 @@ ul {
 }
 
 nav {
+  margin-top: -5px;
   display: flex;
   width: 84%;
-  margin: auto;
-  padding: 20px 0;
   justify-content: space-between;
 }
 
 nav ul li {
+  position: relative;
   display: inline-block;
-  list-style: none;
   margin: 10px 20px;
+  right: -210px;
 }
 
 nav ul li a{
@@ -47,11 +52,11 @@ nav ul li a:hover {
 
 .home {
   position: relative;
-  left: -200px;
+  left: -270px;
 }
 
 .bio {
-  margin-left: 8%;
+  margin-left: 9em;
   margin-top: 13%;
   transform: translateY(-70px);
 }
@@ -62,11 +67,13 @@ nav ul li a:hover {
 }
 
 span {
-  color: #70aecc;
+  /*color: #70aecc;*/
+  color: #c89915;
   font-size: 70px;
 }
 
 .bio p {
+  clear: right;
   font-size: 20px;
   color: #555;
   line-height: 22px;
@@ -75,15 +82,13 @@ span {
 .image {
   width: 30%;
   height: 60%;
-  top: 260px;
-  right: 50px;
 }
 
 .image img {
-  right: 14%;
+  top: 25%;
+  right: 10%;
   position: absolute;
   float: right;
-  bottom: 0;
   transition: .7s ease;
 }
 
