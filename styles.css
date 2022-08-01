@@ -108,7 +108,7 @@ span {
 }
 
 .images:hover .shape {
-  right: 290px;
+  right: 16%;
   transform: translateY(40px);
 }
 
