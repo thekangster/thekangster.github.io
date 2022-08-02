@@ -6,14 +6,35 @@
   <link rel="stylesheet" href="styles.css">
   <title>kevin k</title>
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+
+    var resizeText = function () {
+      // Standard height, for which the body font size is correct
+      var preferredFontSize = 130; // %
+      var preferredSize = 1920 * 1080;
+
+      var currentSize = $(window).width() * $(window).height();
+      var scalePercentage = Math.sqrt(currentSize) / Math.sqrt(preferredSize);
+      var newFontSize = preferredFontSize * scalePercentage;
+      $("body").css("font-size", newFontSize + '%');
+    };
+
+    $(window).bind('resize', function() {
+      resizeText();
+    }).trigger('resize');
+
+  });
+</script>
 <body>
   <div class="background">
     <div class="hero">
       <nav>
         <ul class="home">
-          <li><a href="index.html"><b>kevin kang</b></a></li>
+          <li><a href="index.html"><b>kevin</b></a></li>
         </ul>
-        <ul>
+        <ul class="rc">
           <li><a href="/assets/kevinkangResume2022.pdf" target="_blank">resume</a></li>
           &emsp;&emsp;
           <li><a href="#rest">contact</a></li>
@@ -27,11 +48,10 @@
       </div>
 
       <div class="images">
-        <img src="/assets/images/box2.png" 
+        <img src="/assets/images/box2.png"
              class="shape"
-             width="280" 
-             height="400"/>
-        <img src="/assets/images/kevin-lajolla.jpeg" width="300"
+             />
+        <img src="/assets/images/kevin-lajolla.jpeg" width="16%"
              class="me"
              alt="vibing in la jolla"
              title="drink more tea"/>
