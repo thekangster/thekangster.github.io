@@ -1,2 +1,2 @@
-# thekangster.github.io
-my personal website
+# my user page
+see it [here](thekangster.github.io)
