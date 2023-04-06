@@ -8,15 +8,15 @@ supervision of Professors
 rendering* problems by building a pipeline to reconstruct the unknown geometry,
 camera positions, materials, etc. of an input scene. 
 
-#### contact, github, resume
+### contact, github, resume
 - ktkang at ucsd.edu
-- github.com/thekangster
+- [my github](https://github.com/thekangster)
 - [resume](assets/kevinkangResume2023.pdf)
 
-#### i like this quote
+### i like this quote
 > People's feelings are memories that transcend time.
 
-#### i dont like seg faults
+### i dont like seg faults
 ```
 int main() {
     void (*f)(void);
@@ -24,18 +24,20 @@ int main() {
 }
 ```
 
-#### goals for cse 110 
+### goals for cse 110 
 - [ ] learn how to engineer software
 - [ ] learn how to be a good teammate
 - [ ] take over the world with our project
 
-#### this quarter im taking
+### this quarter im taking
 1. cse 110 - software engineering
 2. cse 101 - algorithms
 3. ece 101 - linear systems
 4. wcwp 100 - warren writing
 5. cse 198 - research
 
+### heres a picture of me in la jolla
 ![me in lajolla](assets/images/kevin-lajolla.jpeg)
+
 [this is a link to the README](README.md)
 
