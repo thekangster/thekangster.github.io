@@ -36,8 +36,5 @@ int main() {
 4. wcwp 100 - warren writing
 5. cse 198 - research
 
-### heres a picture of me in la jolla
-![me in lajolla](assets/images/kevin-lajolla.jpeg)
-
-[this is a link to a cool page](cool.md)
+[heres a picture of me in la jolla](cool.md)
 

@@ -1,4 +1,4 @@
-cool things
+# cool things
+![me in lajolla](assets/images/kevin-lajolla.jpeg)
 
-lol
-
+[back](index.md)
