@@ -39,5 +39,5 @@ int main() {
 ### heres a picture of me in la jolla
 ![me in lajolla](assets/images/kevin-lajolla.jpeg)
 
-[this is a link to the README](./README.md)
+[this is a link to a cool page](cool.md)
 
