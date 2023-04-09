@@ -1,5 +1,5 @@
-# welcome!
-Hey there! I'm a third year **computer engineering** student at [UC San
+# <a id="top"></a> welcome! 
+I'm a third year **computer engineering** student at [UC San
 Diego](https://ucsd.edu/). My interests are in computer graphics, computer
 vision, and a lot more. At the moment, I'm working on helping solve *inverse
 rendering* problems by building a pipeline to reconstruct the unknown geometry,
@@ -8,11 +8,11 @@ camera positions, materials, etc. of an input scene -- advised by Professors
 [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/).
 
 ### contact, github, resume
-- ktkang at ucsd.edu
+- ktkang [at] ucsd.edu
 - [my github](https://github.com/thekangster)
 - [resume](assets/kevinkangResume2023.pdf)
 
-## fun stuff
+## random
 
 > I like this quote:
 >
@@ -28,7 +28,7 @@ int main() {
 
 ### goals for cse 110 
 - [ ] learn how to engineer software
-- [ ] learn how to be a good teammate
+- [ ] be a good teammate
 - [ ] take over the world with our project
 
 ### this quarter im taking
@@ -39,9 +39,7 @@ int main() {
 5. cse 198 - research
 
 #### me
-<img src="assets/images/cat.jpg" width="50%" height="50%" 
-    title="do you know what the cat command does?">
 
-[heres a picture of me in la jolla](cool.md)
+[heres a picture of a cat](cool.md)
 
-[back to the top](#welcome!)
+[back to the top](#top)

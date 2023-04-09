@@ -1,5 +1,5 @@
 # cool things
 
-<img src="assets/images/kevin-lajolla.jpeg" width="55%" height="55%" title="drink some tea">
+<img src="assets/images/cat.jpg" width="50%" height="50%" title="do you know what the cat command does?">
 
 [back](index.md)
