@@ -1,7 +1,7 @@
 # <a id="top"></a> welcome! 
 I'm a third year **computer engineering** student at [UC San
 Diego](https://ucsd.edu/). My interests are in computer graphics, computer
-vision, and a lot more. At the moment, I'm working on helping solve *inverse
+vision, and a lot more. Currently, I'm working on helping solve *inverse
 rendering* problems by building a pipeline to reconstruct the unknown geometry,
 camera positions, materials, etc. of an input scene -- advised by Professors 
 [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/) and 
