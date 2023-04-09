@@ -1,9 +1,9 @@
 # <a id="top"></a> welcome! 
-I'm a third year **computer engineering** student at [UC San
-Diego](https://ucsd.edu/). My interests are in computer graphics, computer
-vision, and a lot more. Currently, I'm working on helping solve *inverse
-rendering* problems by building a pipeline to reconstruct the unknown geometry,
-camera positions, materials, etc. of an input scene -- advised by Professors 
+I'm a third-year **computer engineering** student at [UC San
+Diego](https://ucsd.edu/). My interests are in computer vision, graphics, and a
+lot more. Currently, I'm working on helping solve *inverse rendering* problems
+through building a pipeline to reconstruct unknown object geometry and
+appearance from 2D images -- advised by Professors 
 [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/) and 
 [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/).
 
