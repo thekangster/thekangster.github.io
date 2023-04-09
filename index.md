@@ -12,7 +12,7 @@ appearance from 2D images -- advised by Professors
 - [my github](https://github.com/thekangster)
 - [resume](assets/kevinkangResume2023.pdf)
 
-## random
+### random quote
 
 > I like this quote:
 >
