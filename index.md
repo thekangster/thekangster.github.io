@@ -7,16 +7,8 @@ appearance from 2D images -- advised by Professors
 [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/) and 
 [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/).
 
-### contact, github, resume
+### contact
 - ktkang [at] ucsd.edu
-- [my github](https://github.com/thekangster)
-- [resume](assets/kevinkangResume2023.pdf)
-
-### random quote
-
-> I like this quote:
->
-> People's feelings are memories that transcend time.
 
 ### i do not like seg faults
 ```c
@@ -25,18 +17,6 @@ int main() {
     f();
 }
 ```
-
-### goals for cse 110 
-- [ ] learn how to engineer software
-- [ ] be a good teammate
-- [ ] take over the world with our project
-
-### this quarter im taking
-1. cse 110 - software engineering
-2. cse 101 - algorithms
-3. ece 101 - linear systems
-4. wcwp 100 - warren writing
-5. cse 198 - research
 
 #### me
 
