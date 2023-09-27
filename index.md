@@ -18,8 +18,6 @@ int main() {
 }
 ```
 
-#### me
-
 [heres a picture of a cat](cool.md)
 
 [back to the top](#top)
